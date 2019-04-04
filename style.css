@@ -5,76 +5,78 @@
   body {
     font-family: 'Open Sans Condensed', sans-serif;
   }
-  
-  /* grid 960px */
-  .linha{
+
+  .content {list-style-type: circle;}
+
+
+/* GRID 960px */
+  .line{
     width: 960px;
     margin: 0 auto;
-    /* deixa centralizado, no meio da pagina */
     overflow: auto;
-    /* evita problemas futuros de layout */
     padding: 0;
-    /* espassamento entre linhas */
   }
-  .coluna{
+
+  .column{
     padding: 0 10px;
-    /*espassamento entre colunas, isso influi na conta dos 960px, que dividido por
-    12 da 80, menos 10 de cada lado da 60*/
     float: left;
   }
   
-  /* com esse espassamento definimos aqui abaixo o tamanho de cada coluna: */
-  
-  .col1{
-    /*width: 60px;*/
-      width: 6.25%;
-  }
-  
-  .col2{
-    /*width: 140px;*/
-    width: 14.583333%;
-  }
-  .col3{
-    /*width: 220px;*/
-    width: 22.916667%;
-  }
-  .col4{
-    /*width: 300px;*/
-    width: 31.25%;
-  }
-  .col5{
-    /*width: 380px;*/
-    width: 39.583333%;
-  }
-  .col6{
-    /*width: 460px;*/
-    width: 47.916667%;
-  }
-  .col7{
-    /*width: 540px;*/
-    width: 56.25%;
-  }
-  .col8{
-    /*width: 620px;*/
-    width: 64.583333%;
-  }
-  .col9{
-    /*width: 700px;*/
-    width: 72.916667%;
-  }
-  .col10{
-    /*width: 780px;*/
-    width: 81.25%;
-  }
-  .col11{
-    /*width: 860px;*/
-    width: 89.583333%;
-  }
-  .col12{
-    /*width: 940px;*/
-    width: 97.916667%;
-  }
+  .col6{width: 50.00%;}
 
-  img {
-      width: 40%;
-  }
+  .col12{width: 100.00%;}
+
+/*IMAGES*/
+  img {width: 40%;}
+  .myinsta {width: 4%;}
+
+
+  .content {list-style-type: circle;}
+
+/*SCALES FOR SKILLS*/
+    #bar {
+        width: 80%;
+        height: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 26, 21, 0.4);
+    }
+
+    .fill{
+        height: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 26, 21, 0.6);    
+    }
+
+    .f1{width: 45%;}
+
+    .f2{width: 45%;}
+
+    .f3{width: 30%;}
+
+    .f4{width: 10%;}
+
+    .f5{width: 90%;}
+
+    .f6{width: 90%;}
+
+    .f7{width: 80%;}
+
+    .f8{width: 45%;}
+
+    .f9{width: 100%;}
+
+    .f10{width: 95%;}
+
+    .percent {
+    text-align: center;
+    color: white;
+    }
+
+
+/*FOOTER*/
+    footer {
+        text-align: center;
+        color: #fff;
+        padding: 10px 0;
+        background-color: rgba(0, 26, 21, 0.6);
+    }
