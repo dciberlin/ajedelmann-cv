@@ -8,6 +8,14 @@
 
   .content {list-style-type: circle;}
 
+  h1 {
+    line-height: 0em;
+  }
+  #webdev {
+    letter-spacing: 0.7em;
+    font-size: 1em;
+    word-spacing: 0.5em;
+  }
 
 /* GRID 960px */
   .line{
@@ -47,11 +55,11 @@
         background-color: rgba(0, 26, 21, 0.6);    
     }
 
-    .f1{width: 45%;}
+    .f1{width: 55%;}
 
-    .f2{width: 45%;}
+    .f2{width: 55%;}
 
-    .f3{width: 30%;}
+    .f3{width: 20%;}
 
     .f4{width: 10%;}
 
